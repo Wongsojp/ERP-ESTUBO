@@ -74,20 +74,6 @@ This project was developed to solve several operational challenges, including:
 
 ---
 
-## Project Structure
-
-```
-ERP-ESTUBO
-│
-├── Documentation
-├── Sample Scripts
-├── Images
-├── Database Design
-└── README.md
-```
-
----
-
 ## Screenshots
 
 Screenshots will be added soon.
