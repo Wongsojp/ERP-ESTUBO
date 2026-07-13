@@ -74,7 +74,7 @@ This project was developed to solve several operational challenges, including:
 
 ---
 
-## Screenshots
+## Images
 
 Screenshots will be added soon.
 
