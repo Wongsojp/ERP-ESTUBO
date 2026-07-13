@@ -9,16 +9,6 @@ When a customer purchases ice, the oldest stock must be deducted first.
 The algorithm sorts all active batches by production date and deducts quantities sequentially until the requested quantity is fulfilled.
 
 ```javascript
-// 60–80 lines of simplified FIFO code
-```
-
-## Result
-
-- Automatic stock allocation
-- No manual batch selection
-- Accurate inventory tracking
-
-
 function fifoDeductInMemory_(state, productId, jumlah) {
   const { data, idx } = state;
   let rows = [];
@@ -74,3 +64,11 @@ function fifoRestoreInMemory_(state, logs, alreadyReturned, jumlahRetur) {
   }
   return { restored: detail.length > 0, detail };
 }
+
+```
+
+## Result
+
+- Automatic stock allocation
+- No manual batch selection
+- Accurate inventory tracking
